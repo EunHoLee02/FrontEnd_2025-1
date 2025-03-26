@@ -422,7 +422,19 @@
     line-height: normal;
     white-space: nowrap;
  } 
- 
+ .frame .text-8 {
+   width: 347px;
+   height: 15px; 
+   top: 10px;
+   left: 9px;
+   position: absolute;
+   font-weight: 400;
+   color: #000000;
+   font-size: 12px;
+   letter-spacing: 0;
+   line-height: normal;
+   white-space: nowrap;
+ }
  .frame .input {
     position: absolute;
     width: 380px;
