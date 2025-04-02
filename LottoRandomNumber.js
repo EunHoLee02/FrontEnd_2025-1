@@ -5,7 +5,7 @@ function getRandomNumbers() {
         if (!numbers.includes(randomNum)) {
             numbers.push(randomNum);
         }
-    }
+    } 
     return numbers ;
 }
 
