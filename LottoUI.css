@@ -1,528 +1,156 @@
-.backframe{
-    width: 1909px;
-    height: 1110px;
-    background-color: #f0f0f0;
-}
+ body {
+   margin: 0;
+   padding: 0;
+ }
 
-.frame{
-    position: absolute;
-    width: 500px;
-    height: 1012px;
-    top: 55px;
-    left: 693px;
-    background-color: #ffffff;
-}
+ .backframe {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   min-height: 100vh;
+   background-color: #f0f0f0;
+ }
 
- 
-.frame .top-background {
-   position: absolute;
-   width: 500px;
-   height: 98px;
-   top: 0;
-   left: 0;
+ .frame {
+   width: 90%;
+   max-width: 500px;
+   background: #fff;
+   border-radius: 8px;
+   overflow: hidden;
+   position: relative;
+ }
+
+ .top-background {
    background-color: #4b89dc;
-}
-.frame .background-1 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 170px;
-    left: 186px;
-    background-color: #ff7272;
-    border-radius: 22.5px;
- }
- .frame .background-2 {
-     position: absolute;
-     width: 45px;
-     height: 45px;
-     top: 170px;
-     left: 269px;
-     background-color: #aaaaaa;
-     border-radius: 22.5px;
-  }
-  .frame .background-3 {
-     position: absolute;
-     width: 45px;
-     height: 45px;
-     top: 170px;
-     left: 352px;
-     background-color: #b0d840;
-     border-radius: 22.5px;
-  }
-    
-  .frame .background-4 {
-     position: absolute;
-     width: 45px;
-     height: 45px;
-     top: 170px;
-     left: 435px;
-     background-color: #fbc400;
-     border-radius: 22.5px;
-  }
-    
- .frame .background-5 {
-     position: absolute;
-     width: 45px;
-     height: 45px;
-     top: 170px;
-     left: 20px;
-     background-color: #fbc400;
-     border-radius: 22.5px;
-  }
-    
- 
-  .frame .background-6 {
-     position: absolute;
-     width: 45px;
-     height: 45px;
-     top: 170px;
-     left: 103px;
-     background-color: #69c8f2;
-     border-radius: 22.5px;
-  }
-  .frame .background-7 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 15px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
- }
-  
- .frame .background-8 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 92px;
-    background-color: #69c8f2;
-    border-radius: 22.5px;
- }
-  .frame .background-9 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 169px;
-    background-color: #ff7272;
-    border-radius: 22.5px;
- }
-   
- .frame .background-10 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 246px;
-    background-color: #aaaaaa;
-    border-radius: 22.5px;
- }
-  
- .frame .background-11 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 323px;
-    background-color: #b0d840;
-    border-radius: 22.5px;
- }
-   
- .frame .background-12 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 95px;
-    left: 400px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
- }
-  .frame .background-13 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 15px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
- }
-  
- .frame .background-14 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 92px;
-    background-color: #69c8f2;
-    border-radius: 22.5px;
- }
-   
- .frame .background-15 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 169px;
-    background-color: #ff7272;
-    border-radius: 22.5px;
- }
-   
- .frame .background-16 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 246px;
-    background-color: #aaaaaa;
-    border-radius: 22.5px;
- }
-   
- .frame .background-17 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 323px;
-    background-color: #b0d840;
-    border-radius: 22.5px;
- }
-   
- .frame .background-18 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 201px;
-    left: 400px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
- }
-   
- .frame .background-19 {
-    position: absolute;
-    width: 430px;
-    height: 41px;
-    top: 266px;
-    left: 15px;
-    background-color: #e8f4fd;
-    border-radius: 5px;
- }
-  .frame .background-20 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 15px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
- }
-   
- .frame .background-21 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 92px;
-    background-color: #69c8f2;
-    border-radius: 22.5px;
- }
-   
- .frame .background-22 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 169px;
-    background-color: #ff7272;
-    border-radius: 22.5px;
- }
-   
- .frame .background-23 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 246px;
-    background-color: #aaaaaa;
-    border-radius: 22.5px;
- }
-   
- .frame .background-24 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 323px;
-    background-color: #b0d840;
-    border-radius: 22.5px;
- }
- 
-   
- .frame .background-25 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 330px;
-    left: 400px;
-    background-color: #fbc400;
-    border-radius: 22.5px;
+   text-align: center;
+   padding: 20px;
+   color: #fff;
  }
 
- .frame .background-26 {
-    position: absolute;
-    width: 430px;
-    height: 41px;
-    top: 395px;
-    left: 15px;
-    background-color: #e8f4fd;
-    border-radius: 5px;
+ .title {
+   margin: 0;
+   font-size: 24px;
+   font-weight: 700;
  }
-  .frame .button {
-    all: unset;
-    box-sizing: border-box;
-    position: absolute;
-    width: 460px;
-    height: 40px;
-    top: 230px;
-    left: 20px;
-    background-color: #4b89dc;
-    border-radius: 5px;
- }
- .frame .button-2 {
-    all: unset;
-    box-sizing: border-box;
-    position: absolute;
-    width: 460px;
-    height: 40px;
-    top: 148px;
-    left: 20;
-    background-color: #4b89dc;
-    border-radius: 5px;
- }
-  .frame .bottom-background {
-     position: absolute;
-     width: 460px;
-     height: 461px;
-     top: 520px;
-     left: 20px;
-     background-color: #f5f5f5;
-     border-radius: 5px;
-  }
-  .frame .mid-background {
-    position: absolute;
-    width: 460px;
-    height: 199px;
-    top: 300px;
-    left: 20px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-color: #f5f5f5;
- }
-  .frame .text-1 {
-    position: absolute;
-    width: 460px;
-    height: 40px;
-    top: 7px;
-    left: 0px;
-    font-weight: 700;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
- }
- .frame .text-2 {
-    position: absolute;
-    width: 500px;
-    height: 98px;
-    top: 20px;
-    left: 0px;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    text-align: center;
-    justify-content: center;
-    line-height: normal;
-    white-space: nowrap;
- }
-  .frame .text-3 {
-    position: absolute;
-    width: 500px;
-    height: 98px;
-    top: 50px;
-    left: 0px;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    text-align: center;
-    justify-content: center;
-    line-height: normal;
-    white-space: nowrap;
- }
-  
- 
 
- .frame .text-4 {
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    top: 8px;
-    left: 0px;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    text-align: center;
-    justify-content: center;
-    line-height: normal;
-    white-space: nowrap;
+ .subtitle {
+   margin: 5px 0 0;
+   font-size: 16px;
  }
- .frame .text-5 {
-    position: absolute;
-    width: 430px;
-    height: 41px;
-    top: 8px;
-    left: 0px;
-    font-weight: 700;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    text-align: center;
-    justify-content: center;
-    line-height: normal;
-    white-space: nowrap;
+
+ .section {
+   padding: 20px;
+   border-top: 1px solid #eee;
  }
-.frame .text-6 {
-    width: 118px;
-    top: 53px;
-    left: 15px;
-    position: absolute;
-    height: 20px;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+
+ .section-title {
+   margin: 0 0 10px;
+   font-size: 18px;
+   font-weight: 700;
  }
- .frame .text-7 {
-    width: 118px;
-    top: 155px;
-    left: 15px;
-    position: absolute;
-    height: 20px;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
- } 
- .frame .text-8 {
-   width: 347px;
-   height: 15px; 
-   top: 10px;
-   left: 9px;
-   position: absolute;
-   font-weight: 400;
-   color: #000000;
-   font-size: 12px;
-   letter-spacing: 0;
-   line-height: normal;
-   white-space: nowrap;
+
+ .lotto-balls {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin: 10px 0 20px;
+   flex-wrap: wrap;
  }
- .frame .input {
-    position: absolute;
-    width: 380px;
-    height: 37px;
-    top: 60px;
-    left: 80px;
-    background-color: #ffffff;
-    border-radius: 4px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: #dddddd;
- }
-.frame .heading {
-    width: 103px;
-    height: 27px;
-    top: 120px;
-    left: 0px;
+
+ .ball {
+   width: 45px;
+   height: 45px;
+   background-color: #69c8f2;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
    font-weight: 700;
    font-size: 18px;
-   position: absolute;
-   color: #000000;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
-   white-space: nowrap;
-}
-.frame .heading-2 {
-    width: 113px;
-    top: 22px;
-    left: 0;
-    position: absolute;
-    height: 20px;
-    font-weight: 700;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
- }
- .frame .heading-3 {
-    width: 118px;
-    top: 16px;
-    left: 15px;
-    position: absolute;
-    height: 20px;
-    font-weight: 700;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
- }
- .frame .heding-4 {
-    position: absolute;
-    width: 103px;
-    height: 27px;
-    top: 20px;
-    left: 340px;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-    
  }
 
- .frame .label {
-    position: absolute;
-    width: 73px;
-    height: 17px;
-    top: 68px;
-    left: 0;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
- }
- 
-.frame .p {
-   width: 234px;
-   height: 17px;
-   top: 107px;
-   left: 0;
-   font-weight: 400;
-   color: #000000;
+ .button {
+   width: 100%;
+   padding: 10px;
+   background-color: #4b89dc;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
    font-size: 16px;
-   white-space: nowrap;
-   position: absolute;
-   letter-spacing: 0;
-   line-height: normal;
-}
+   font-weight: bold;
+
+ }
+
+ .label {
+   font-size: 16px;
+   display: block;
+   margin-bottom: 5px;
+ }
+
+ .input {
+   width: 75%;
+   height: 35px;
+   padding: 0 10px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+ }
+
+ .price {
+   font-size: 14px;
+   color: #333;
+   margin-bottom: 10px;
+ }
+
+ .result-section {
+   display: none;
+   margin: 20px;
+   background-color: #f5f5f5;
+   border-radius: 8px;
+ }
+
+ .purchase-row {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 10px;
+ }
+
+ .result-block {
+   padding: 10px 0;
+ }
+
+ .result-label {
+   font-weight: 700;
+   margin-bottom: 5px;
+ }
+
+ .result-text {
+   height: 41px;
+   border-radius: 2px;
+   background-color: #E8F4FD;
+   line-height: 41px;
+   text-align: center;
+   font-weight: bold;
+ }
+
+ .ball-1 {
+   background-color: #fbc400;
+ }
+
+ .ball-2 {
+   background-color: #69c8f2;
+ }
+
+ .ball-3 {
+   background-color: #ff7272;
+ }
+
+ .ball-4 {
+   background-color: #aaaaaa;
+ }
+
+ .ball-5 {
+   background-color: #b0d840
+ }
