@@ -1,0 +1,32 @@
+.movie-card {
+    width: 180px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #333;
+}
+
+.movie-card h3 {
+    font-size: 16px;
+    margin: 8px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin: 0 8px 8px;
+    color: #ffd700;
+    /* 평점 색상: 금색 */
+}

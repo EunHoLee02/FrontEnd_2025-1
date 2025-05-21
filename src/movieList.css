@@ -1,0 +1,14 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    background-color: #121212;
+    padding: 40px;
+}
+
+.head {
+    background-color: #121212;
+    color: #ff0000;
+    margin: 0;
+}
