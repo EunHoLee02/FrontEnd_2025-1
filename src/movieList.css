@@ -1,13 +1,17 @@
 .movie-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    background-color: #121212;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
     padding: 40px;
+    background-color: #121212;
+
+    width: 100%;
+    box-sizing: border-box;
+    justify-items: center;
 }
 
 .head {
+    width: 100%;
     background-color: #121212;
     color: #ff0000;
     margin: 0;
